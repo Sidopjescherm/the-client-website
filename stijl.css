@@ -1,4 +1,37 @@
+body{
+    background-color: #2C2E65;
+    font-family: Arial;
+    color: white;
+}
+
 nav{
     display: flex;
     gap: 1.25em;
+}
+
+h1{
+    font-size: 24pt;
+    font-style: normal;
+}
+
+article{
+    display: grid;
+    h2{
+        font-size: 12pt;
+        font-style: bold;
+    }
+}
+
+p{
+    font-size: 10pt;
+}
+
+a{
+
+}
+
+footer{
+    display: flex;
+    gap: 2em;
+    background-color: #635c4f;
 }
