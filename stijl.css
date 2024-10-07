@@ -2,11 +2,20 @@ body{
     background-color: #2C2E65;
     font-family: Arial;
     color: white;
+    a:link{
+        text-decoration: none;
+    }
 }
 
 nav{
     display: flex;
     gap: 1.25em;
+    padding: 5%;
+    a{
+        color: white;
+        text-underline-offset: non;
+    }
+
 }
 
 h1{
@@ -24,10 +33,6 @@ article{
 
 p{
     font-size: 10pt;
-}
-
-a{
-
 }
 
 footer{
